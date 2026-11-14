@@ -6,3 +6,6 @@ Most confusing part is understnding how to select an alnulm and display the deta
 
 I accomplished creating a flutter app that connects to an online api to get
 a list of albums. The difference between requesing a list of item versus a single item is a list of items returns mutltiple objects use List<Album> abd ListView.builder to display each item and a single item returns one album object and display information
+
+Prompt2
+I accomplished adding the abilty for the album and display title and ID. Using a state variable allows me to change what appears on thee same screen without openeing a new page
