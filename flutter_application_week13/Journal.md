@@ -14,3 +14,8 @@ Prompt 3
 In this phase, I learned how to delete an album using an HTTP DELETE request in Flutter. I used the ID of the selected album to send a request to the server and delete the specific album.
 
 After receiving the response, I checked the status code to make sure the request was successful. If the status code was 200, I used setState() to remove the album from the local list and set selectedAlbum to null, which returned the app to the album list view.
+
+Prompt4
+While testing my program, I checked that the albums loaded correctly, that selecting an album displayed its details, and that the Delete button sent a DELETE request to the API.
+
+One unexpected behavior I noticed was that JSONPlaceholder simulates deleting an album but does not permanently remove it from the server. The album could appear again if I refreshed the list.
