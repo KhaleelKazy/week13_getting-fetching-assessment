@@ -9,3 +9,8 @@ a list of albums. The difference between requesing a list of item versus a singl
 
 Prompt2
 I accomplished adding the abilty for the album and display title and ID. Using a state variable allows me to change what appears on thee same screen without openeing a new page
+
+Prompt 3
+In this phase, I learned how to delete an album using an HTTP DELETE request in Flutter. I used the ID of the selected album to send a request to the server and delete the specific album.
+
+After receiving the response, I checked the status code to make sure the request was successful. If the status code was 200, I used setState() to remove the album from the local list and set selectedAlbum to null, which returned the app to the album list view.
